@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+}
+.body {
+  font-family: sans-serif;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.color-text {
+  background: linear-gradient(#df6285, #ec4675);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.toper {
+  background: url(img/header-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+}
+.second {
+  background: url(img/biography-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+}
+.correct {
+  width: 40%;
+  margin: 10% 0 0 10%;
+}
+
+.half h1 {
+  font-size: 2.5em;
+  background: linear-gradient(to right, rgb(100, 100, 100), rgb(51, 51, 51));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.half p {
+  font-size: 1.1em;
+  background: linear-gradient(to right, rgb(77, 76, 76), rgb(80, 77, 77));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.half span {
+  font-family: verdana;
+}
+.half button {
+  padding: 0.8em 2em;
+  background: linear-gradient(to right, #fa90ae, #f7618b);
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+
+.my-work {
+  background: url(img/latest-work-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.h2text {
+  text-align: center;
+}
+.h2text h2 {
+  font-size: 2em;
+  font-family: tahoma;
+  background: linear-gradient(to right, rgb(100, 100, 100), rgb(51, 51, 51));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.work-img {
+  display: flex;
+  justify-content: space-between;
+}
+.work-img img {
+  width: 30%;
+  box-shadow: 0 0 10px gray;
+  border-radius: 5px;
+}
+.client {
+  margin-top: 10%;
+  text-align: center;
+  background: url(img/footer-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.client .normal-text p,
+h3 span {
+  background: linear-gradient(to right, rgb(54, 54, 54), rgb(54, 53, 53));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.client .normal-text h2 {
+  font-size: 2.4em;
+  font-family: sans-serif;
+  margin: 5% 0 5% 0;
+  background: linear-gradient(to right, rgb(100, 100, 100), rgb(51, 51, 51));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.normal-text h3 {
+  font-size: 1.2em;
+  font-weight: 300;
+  font-family: cursive;
+}
+.normal-text h3 span {
+  font-size: 0.6em;
+}
+.normal-text p {
+  margin: 5% 0;
+}
+.box-text {
+  width: 50%;
+  background: linear-gradient(to right, #fa90ae, #f7618b);
+  margin: auto;
+  padding: 40px 0;
+  border-radius: 3%;
+}
+.box-text h3,
+h4 {
+  color: white;
+}
+.box-text h3 {
+  margin: 0 0 15px 0;
+  font-size: 0.8em;
+  font-weight: 300;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.box-text h4 {
+  font-size: 1.4em;
+  font-weight: 500;
+  font-family: cursive;
+  margin: 0;
+}
+footer {
+  margin: 5% 0 3px 0;
+}
+footer div {
+  text-align: center;
+}
+footer div p {
+  font-weight: 400;
+  font-family: verdana;
+}
